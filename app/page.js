@@ -1,8 +1,10 @@
-import About from "./(Pages)/about/page";
-import Home from "./(Pages)/home/page";
-import WorkExp from "./(Pages)/workExp/page";
-import Nav from "./Components/Nav";
+import Home from "./Components/Home";
+import ContactD from "./Components/ContactD";
 import Tech from "./Components/Technologies";
+import Nav from "./Components/Nav";
+import About from "./Components/About";
+import WorkExp from "./Components/WorkExp";
+import Project from "./Components/Projects";
 
 export default function Main() {
   return (
@@ -14,6 +16,8 @@ export default function Main() {
           <About />
           <Tech />
           <WorkExp />
+          <Project />
+          <ContactD />
         </div>
       </div>
     </div>

@@ -3,10 +3,12 @@
 @tailwind utilities;
 
 :root {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background-color: rgb(3, 3, 33);
   color: #fff;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.spin_text {
+  color: transparent;
+  -webkit-text-stroke-color: #ffffffcd;
+  -webkit-text-stroke-width: 2px;
 }
