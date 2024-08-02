@@ -1,5 +1,5 @@
 import Home from "./Components/Home";
-import ContactD from "./Components/ContactD";
+import { ContactD } from "./Components/ContactD";
 import Tech from "./Components/Technologies";
 import Nav from "./Components/Nav";
 import About from "./Components/About";
